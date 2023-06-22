@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "667913438777",
+    "firebase_url": "https://sim800-69cc7-default-rtdb.firebaseio.com",
+    "project_id": "sim800-69cc7",
+    "storage_bucket": "sim800-69cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667913438777:android:df94005bdc37a3a97fefe8",
+        "android_client_info": {
+          "package_name": "com.mycompany.taku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZEQBF7PM75nwEvpXsLDf_GU7FS2fOVeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667913438777:android:3313d7ecedbc1cbf7fefe8",
+        "android_client_info": {
+          "package_name": "com.mycompany.tugasakhir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZEQBF7PM75nwEvpXsLDf_GU7FS2fOVeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
