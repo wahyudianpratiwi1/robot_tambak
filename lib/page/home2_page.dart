@@ -148,7 +148,7 @@ class _Home2PageState extends State<Home2Page> {
                     child: Stack(
                       children: [
                         Container(
-                          height: 300,
+                          height: 220,
                           decoration: const BoxDecoration(
                               color: Colors.white,
                               borderRadius:
@@ -159,8 +159,19 @@ class _Home2PageState extends State<Home2Page> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.only(top: 50),
-                              child: Image.asset(AppAsset.air,
-                                  width: 80, height: 80),
+                              child: Column(
+                                children: [
+                                  Image.asset(AppAsset.air,
+                                      width: 80, height: 80),
+                                  Text(
+                                    '${sensorController.sensorData.value.setAir} %',
+                                    style: const TextStyle(
+                                        fontSize: 16.0,
+                                        fontWeight: FontWeight.bold,
+                                        color: AppColor.primary),
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),
@@ -242,7 +253,7 @@ class _Home2PageState extends State<Home2Page> {
                     child: Stack(
                       children: [
                         Container(
-                          height: 300,
+                          height: 260,
                           decoration: const BoxDecoration(
                               color: Colors.white,
                               borderRadius:
@@ -253,8 +264,26 @@ class _Home2PageState extends State<Home2Page> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.only(top: 50, left: 10),
-                              child: Image.asset(AppAsset.waktu,
-                                  width: 60, height: 60),
+                              child: Column(
+                                children: [
+                                  Image.asset(AppAsset.waktu,
+                                      width: 60, height: 60),
+                                  Text(
+                                    '${sensorController.sensorData.value.setJam} Jam',
+                                    style: const TextStyle(
+                                        fontSize: 16.0,
+                                        fontWeight: FontWeight.bold,
+                                        color: AppColor.primary),
+                                  ),
+                                  Text(
+                                    '${sensorController.sensorData.value.setMenit} Menit',
+                                    style: const TextStyle(
+                                        fontSize: 16.0,
+                                        fontWeight: FontWeight.bold,
+                                        color: AppColor.primary),
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),
