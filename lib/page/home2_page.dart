@@ -163,13 +163,15 @@ class _Home2PageState extends State<Home2Page> {
                                 children: [
                                   Image.asset(AppAsset.air,
                                       width: 80, height: 80),
-                                  Text(
-                                    '${sensorController.sensorData.value.setAir} %',
-                                    style: const TextStyle(
-                                        fontSize: 16.0,
-                                        fontWeight: FontWeight.bold,
-                                        color: AppColor.primary),
-                                  ),
+                                  Obx(
+                                    () => Text(
+                                      '${sensorController.sensorData.value.setAir} %',
+                                      style: const TextStyle(
+                                          fontSize: 16.0,
+                                          fontWeight: FontWeight.bold,
+                                          color: AppColor.primary),
+                                    ),
+                                  )
                                 ],
                               ),
                             ),
@@ -268,12 +270,14 @@ class _Home2PageState extends State<Home2Page> {
                                 children: [
                                   Image.asset(AppAsset.waktu,
                                       width: 60, height: 60),
-                                  Text(
-                                    '${sensorController.sensorData.value.setJam} : ${sensorController.sensorData.value.setMenit}',
-                                    style: const TextStyle(
-                                        fontSize: 16.0,
-                                        fontWeight: FontWeight.bold,
-                                        color: AppColor.primary),
+                                  Obx(
+                                    () => Text(
+                                      '${sensorController.sensorData.value.setJam} : ${sensorController.sensorData.value.setMenit}',
+                                      style: const TextStyle(
+                                          fontSize: 16.0,
+                                          fontWeight: FontWeight.bold,
+                                          color: AppColor.primary),
+                                    ),
                                   ),
                                 ],
                               ),
