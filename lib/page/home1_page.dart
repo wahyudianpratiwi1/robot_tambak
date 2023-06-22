@@ -167,7 +167,7 @@ class _Home1PageState extends State<Home1Page> {
                                             100)
                                         : 0.0,
                                     center: Text(
-                                      '${sensorController.sensorData.value.setAir} %',
+                                      '${sensorController.sensorData.value.ultrasonic} %',
                                       style: const TextStyle(
                                           fontSize: 18.0,
                                           fontWeight: FontWeight.bold,

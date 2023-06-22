@@ -129,7 +129,7 @@ class _Home2PageState extends State<Home2Page> {
                                       : 0.0,
                                   center: Text(
                                     '${sensorController.sensorData.value.baterai} %',
-                                    style: TextStyle(
+                                    style: const TextStyle(
                                         fontSize: 18.0,
                                         fontWeight: FontWeight.bold,
                                         color: AppColor.primary),
@@ -269,14 +269,7 @@ class _Home2PageState extends State<Home2Page> {
                                   Image.asset(AppAsset.waktu,
                                       width: 60, height: 60),
                                   Text(
-                                    '${sensorController.sensorData.value.setJam} Jam',
-                                    style: const TextStyle(
-                                        fontSize: 16.0,
-                                        fontWeight: FontWeight.bold,
-                                        color: AppColor.primary),
-                                  ),
-                                  Text(
-                                    '${sensorController.sensorData.value.setMenit} Menit',
+                                    '${sensorController.sensorData.value.setJam} : ${sensorController.sensorData.value.setMenit}',
                                     style: const TextStyle(
                                         fontSize: 16.0,
                                         fontWeight: FontWeight.bold,
