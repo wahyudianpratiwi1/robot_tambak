@@ -8,9 +8,8 @@ import 'package:robot_tambak/page/pilihan_page.dart';
 import 'package:robot_tambak/page/signin_page.dart';
 
 import 'config/app_color.dart';
-import 'config/session.dart';
 import 'firebase_options.dart';
-import 'model/user.dart';
+import 'helper/notification_helper.dart';
 import 'page/home_page.dart';
 import 'page/register_page.dart';
 
@@ -20,6 +19,7 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   initializeDateFormatting('id_ID');
+  await NotificationHelper.initialize();
   runApp(const MyApp());
 }
 
@@ -33,7 +33,6 @@ class MyApp extends StatelessWidget {
         home: const IntroPage(),
         theme: ThemeData(
             textTheme: GoogleFonts.poppinsTextTheme(),
-            scaffoldBackgroundColor: AppColor.backgroundScaffold,
             primaryColor: AppColor.primary,
             colorScheme: const ColorScheme.light(
                 primary: AppColor.primary, secondary: AppColor.secondary)),

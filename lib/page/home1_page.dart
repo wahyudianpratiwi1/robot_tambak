@@ -17,6 +17,7 @@ class Home1Page extends StatefulWidget {
 
 class _Home1PageState extends State<Home1Page> {
   final CSensor sensorController = Get.put(CSensor());
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -160,14 +161,14 @@ class _Home1PageState extends State<Home1Page> {
                                     radius: 60.0,
                                     lineWidth: 15.0,
                                     percent: sensorController
-                                                .sensorData.value.setAir !=
+                                                .sensorData.value.ultrasonic !=
                                             null
                                         ? (sensorController
-                                                .sensorData.value.setAir! /
+                                                .sensorData.value.ultrasonic! /
                                             100)
                                         : 0.0,
                                     center: Text(
-                                      '${sensorController.sensorData.value.ultrasonic} %',
+                                      '${sensorController.sensorData.value.ultrasonic!.toStringAsFixed(2)} %',
                                       style: const TextStyle(
                                           fontSize: 18.0,
                                           fontWeight: FontWeight.bold,

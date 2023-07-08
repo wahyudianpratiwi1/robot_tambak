@@ -5,7 +5,7 @@ class Sensor {
   int? setJam;
   int? setMenit;
   double? suhu;
-  int? ultrasonic;
+  double? ultrasonic;
   double? pH;
 
   Sensor({
@@ -26,7 +26,7 @@ class Sensor {
         setJam: json["Set_Jam"],
         setMenit: json["Set_Menit"],
         suhu: json["Suhu"]?.toDouble(),
-        ultrasonic: json["Ultrasonic"],
+        ultrasonic: json["Ultrasonic"]?.toDouble(),
         pH: json["pH"]?.toDouble(),
       );
 

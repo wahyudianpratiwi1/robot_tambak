@@ -61,6 +61,21 @@ class _IntroPageState extends State<IntroPage>
                                 ),
                               ),
                               const Spacer(),
+                              const Text("D4 Teknik Mekatronika",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontFamily: 'Poppins',
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white)),
+                              const Text("Politeknik Negeri Ujung Pandang",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontFamily: 'Poppins',
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white)),
+                              const SizedBox(
+                                height: 15,
+                              ),
                               const Padding(
                                 padding: EdgeInsets.only(bottom: 50),
                                 child: Text('2023',
