@@ -76,7 +76,7 @@ class _Home2PageState extends State<Home2Page> {
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white)),
                           const Text(
-                            'Pantau perkembangan tambak anda hanya dengan satu genggaman saja',
+                            'Monitor The Progress of Your Pond With Jush One Hand',
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 12, color: Colors.white),
                           ),
@@ -104,7 +104,7 @@ class _Home2PageState extends State<Home2Page> {
                                 Image.asset(AppAsset.baterai,
                                     width: 60, height: 60),
                                 const Text(
-                                  'Baterai',
+                                  'Battery',
                                   style: TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold,
@@ -186,7 +186,7 @@ class _Home2PageState extends State<Home2Page> {
                               children: [
                                 const Padding(
                                   padding: EdgeInsets.all(20.0),
-                                  child: Text('Set Ketinggian Air',
+                                  child: Text('Set The Water Level',
                                       style: TextStyle(
                                           fontSize: 24,
                                           fontWeight: FontWeight.bold,
@@ -209,7 +209,7 @@ class _Home2PageState extends State<Home2Page> {
                                       contentPadding:
                                           const EdgeInsets.symmetric(
                                               horizontal: 16, vertical: 16),
-                                      hintText: 'Set Ketinggian Air',
+                                      hintText: 'Set The Water Level',
                                       border: OutlineInputBorder(
                                           borderRadius:
                                               BorderRadius.circular(30)),
@@ -291,7 +291,7 @@ class _Home2PageState extends State<Home2Page> {
                             children: [
                               const Padding(
                                 padding: EdgeInsets.all(10.0),
-                                child: Text('Set Waktu Pakan',
+                                child: Text('Set Feed Time',
                                     style: TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
@@ -311,7 +311,7 @@ class _Home2PageState extends State<Home2Page> {
                                     isDense: true,
                                     contentPadding: const EdgeInsets.symmetric(
                                         horizontal: 16, vertical: 16),
-                                    hintText: 'Set Jam',
+                                    hintText: 'Set Clock',
                                     border: OutlineInputBorder(
                                         borderRadius:
                                             BorderRadius.circular(30)),
@@ -339,7 +339,7 @@ class _Home2PageState extends State<Home2Page> {
                                     isDense: true,
                                     contentPadding: const EdgeInsets.symmetric(
                                         horizontal: 16, vertical: 16),
-                                    hintText: 'Set Menit',
+                                    hintText: 'Set Minute',
                                     border: OutlineInputBorder(
                                         borderRadius:
                                             BorderRadius.circular(30)),

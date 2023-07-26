@@ -45,7 +45,7 @@ class SigninPage extends StatelessWidget {
                     const SizedBox(
                       height: 10,
                     ),
-                    const Text('Selamat datang',
+                    const Text('Welcome',
                         style: TextStyle(
                             fontSize: 32,
                             fontWeight: FontWeight.bold,

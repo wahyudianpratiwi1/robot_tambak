@@ -18,7 +18,7 @@ class PilihanPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(top: 70),
             child: Text(
-              'Mempermudah pekerjaan pembudidayaan ikan dan udang pada tambak',
+              'Facilitate The Work of Cultivating Fish\n and Shrimp in Ponds',
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 18,

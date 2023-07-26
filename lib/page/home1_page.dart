@@ -52,7 +52,7 @@ class _Home1PageState extends State<Home1Page> {
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white)),
                             const Text(
-                              'Pantau perkembangan tambak anda hanya dengan satu genggaman saja',
+                              'Monitor The Progress of Your Pond With Jush One Hand',
                               textAlign: TextAlign.center,
                               style:
                                   TextStyle(fontSize: 12, color: Colors.white),
@@ -81,7 +81,7 @@ class _Home1PageState extends State<Home1Page> {
                                   Image.asset(AppAsset.pakan,
                                       width: 100, height: 100),
                                   const Text(
-                                    'Pakan',
+                                    'Feed Level',
                                     style: TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
@@ -144,7 +144,7 @@ class _Home1PageState extends State<Home1Page> {
                                   Image.asset(AppAsset.air,
                                       width: 80, height: 80),
                                   const Text(
-                                    'Level Air',
+                                    'Water Level',
                                     style: TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
@@ -168,7 +168,7 @@ class _Home1PageState extends State<Home1Page> {
                                             100)
                                         : 0.0,
                                     center: Text(
-                                      '${sensorController.sensorData.value.ultrasonic!.toStringAsFixed(2)} %',
+                                      '${sensorController.sensorData.value.ultrasonic} %',
                                       style: const TextStyle(
                                           fontSize: 18.0,
                                           fontWeight: FontWeight.bold,
@@ -206,7 +206,7 @@ class _Home1PageState extends State<Home1Page> {
                                     Image.asset(AppAsset.ph,
                                         width: 30, height: 30),
                                     const Text(
-                                      'Ph Air',
+                                      'Water pH',
                                       style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: FontWeight.bold,
@@ -218,7 +218,7 @@ class _Home1PageState extends State<Home1Page> {
                               Obx(
                                 () => Padding(
                                   padding:
-                                      const EdgeInsets.only(left: 34, top: 70),
+                                      const EdgeInsets.only(left: 34, top: 90),
                                   child: Text(
                                     '${sensorController.sensorData.value.pH}',
                                     style: TextStyle(
@@ -249,7 +249,7 @@ class _Home1PageState extends State<Home1Page> {
                                     Image.asset(AppAsset.suhu,
                                         width: 30, height: 30),
                                     const Text(
-                                      'Suhu Air',
+                                      'Water\nTemperature',
                                       style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: FontWeight.bold,
@@ -261,7 +261,7 @@ class _Home1PageState extends State<Home1Page> {
                               Obx(
                                 () => Padding(
                                   padding:
-                                      const EdgeInsets.only(left: 20, top: 70),
+                                      const EdgeInsets.only(left: 10, top: 90),
                                   child: Text(
                                     '${sensorController.sensorData.value.suhu} °C',
                                     style: TextStyle(
