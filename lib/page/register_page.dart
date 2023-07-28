@@ -81,7 +81,7 @@ class RegisterPage extends StatelessWidget {
                               isDense: true,
                               contentPadding: const EdgeInsets.symmetric(
                                   horizontal: 16, vertical: 16),
-                              hintText: 'Nama Lengkap',
+                              hintText: 'Full Name',
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(30)),
                               focusedBorder: OutlineInputBorder(
@@ -170,7 +170,7 @@ class RegisterPage extends StatelessWidget {
                               isDense: true,
                               contentPadding: const EdgeInsets.symmetric(
                                   horizontal: 16, vertical: 16),
-                              hintText: 'Konfirmasi Password',
+                              hintText: 'Confirm Password',
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(30)),
                               focusedBorder: OutlineInputBorder(

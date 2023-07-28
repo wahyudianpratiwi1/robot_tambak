@@ -89,7 +89,7 @@ class SigninPage extends StatelessWidget {
                                   isDense: true,
                                   contentPadding: const EdgeInsets.symmetric(
                                       horizontal: 16, vertical: 16),
-                                  hintText: 'Email Address',
+                                  hintText: 'Email',
                                   border: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(30)),
                                   focusedBorder: OutlineInputBorder(
